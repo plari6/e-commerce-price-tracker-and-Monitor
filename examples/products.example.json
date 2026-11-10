@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "name": "A Light in the Attic",
+    "sku": "book-attic",
+    "own_price": 55,
+    "target_price": 45,
+    "tags": "books,sandbox"
+  },
+  {
+    "url": "https://scrapeme.live/shop/Bulbasaur/",
+    "sku": "bulbasaur",
+    "own_price": 70,
+    "tags": "woocommerce,sandbox"
+  },
+  {
+    "url": "https://webscraper.io/test-sites/e-commerce/allinone/product/60",
+    "sku": "vivobook",
+    "target_price": 280,
+    "tags": "laptops,sandbox"
+  },
+  {
+    "url": "https://www.ikea.com/us/en/p/billy-bookcase-white-00263850/",
+    "sku": "billy-bookcase",
+    "own_price": 85,
+    "drop_pct": 3
+  }
+]

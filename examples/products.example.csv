@@ -1,0 +1,3 @@
+url;name;sku;own_price;target_price;selector;stock_selector;engine;currency
+https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html;A Light in the Attic;book-attic;55;45;;;;GBP
+https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html;Tipping the Velvet;book-velvet;;50;.product_main .price_color;.product_main .availability;http;GBP

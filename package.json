@@ -1,0 +1,43 @@
+{
+  "name": "ecommerce-price-tracker",
+  "version": "1.0.0",
+  "description": "Tracks competitor product prices daily with Puppeteer Stealth, stores history in SQLite and alerts on discounts, price drops, stock changes and undercuts.",
+  "type": "module",
+  "bin": {
+    "price-tracker": "bin/price-tracker.js"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node bin/price-tracker.js start",
+    "check": "node bin/price-tracker.js check",
+    "demo": "node bin/price-tracker.js demo",
+    "doctor": "node bin/price-tracker.js doctor",
+    "test": "node --test --test-concurrency=1 \"test/**/*.test.js\""
+  },
+  "keywords": [
+    "price-tracker",
+    "price-monitoring",
+    "competitor-pricing",
+    "puppeteer",
+    "scraper",
+    "sqlite",
+    "node-cron",
+    "ecommerce"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "dotenv": "^18.0.10",
+    "exceljs": "^4.4.0",
+    "node-cron": "^4.6.0",
+    "puppeteer": "^25.16.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "allowScripts": {
+    "puppeteer@25.16.0": true
+  }
+}
